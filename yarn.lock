@@ -2397,7 +2397,7 @@ vitepress@^0.9.2:
     vite "^1.0.0-rc.13"
     vue "^3.0.3"
 
-vue@^3.0.3:
+vue@3.0.4, vue@^3.0.3:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.4.tgz#872c65c143f5717bd5387c61613d9f55f4cc0f43"
   integrity sha512-2o+AiQF8sAupyhbyl3oxVCl3WCwC/n5NI7VMM+gVQ231qvSB8eI7sCBloloqDJK6yA367EEtmRSeSCf4sxCC+A==

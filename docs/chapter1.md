@@ -1,4 +1,4 @@
-# SVG 基本介绍
+# 📋 SVG 基本介绍
 
 ## SVG (Scalable Vector Graphics)
 
@@ -48,10 +48,7 @@ SVG 特性：
 
 可以下 CodePen 上进行尝试 👇
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="SVG shapes" src="https://codepen.io/xiaoluoboding/embed/wvKNQxb?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/xiaoluoboding/pen/wvKNQxb'>SVG shapes</a> by xiaoluoboding
-  (<a href='https://codepen.io/xiaoluoboding'>@xiaoluoboding</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<EmbedCodepen title="SVG shapes" pen="wvKNQxb" :height="256" />
 
 [SVG 基本图形](https://www.notion.so/65698aef277748c5b027ee834fec8edb)
 
@@ -70,7 +67,7 @@ SVG 的视口范围（viewport）由 `width`、`height` 属性声明，定义了
 
 ![chapter1-2](./public/chapter1-2.png)
 
-viewport = 300px * 150px 
+viewport = 300px * 150px
 
 ### viewbox
 
@@ -176,7 +173,7 @@ Sara Soueidan 写过一个系列，[Understanding SVG Coordinate Systems and Tra
 | d3.js    | Bring data to life with SVG, Canvas and HTML. |
 | Sprite.js    | SpriteJS 是跨平台的高性能图形系统，它能够支持web、node、桌面应用和小程序的图形绘制和实现各种动画效果。 |
 
-此小册动画实战系列采用 `GSAP` 进行动画开发。OK，也许你奇怪为什么偏偏选择了GSAP，后续章节会进行介绍，[《🪀 使用 GreenSock 制作动画 》](./chapter3.md)
+此小册动画实战系列采用 `GSAP` 进行动画开发。OK，也许你奇怪为什么偏偏选择了GSAP，后续章节会进行介绍，[《🪀 使用 GreenSock 制作动画 》](./chapter4.md)
 
 ## 参考
 
