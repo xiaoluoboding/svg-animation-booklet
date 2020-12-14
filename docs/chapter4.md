@@ -21,7 +21,7 @@
 
 确实如今有很多种方法让 Web 页面生动起来，我在《SVG 基本介绍》章节也对比过一些优秀的 SVG 相关类库，为什么我选择使用 GSAP 编写 SVG 动画，我们看一张 GSAP 功能全景图
 
-![chapter4-1](public/chapter4-1.png)
+![chapter4-1](./public/chapter4-1.png)
 
 相比之下 GSAP 有以下优点：
 

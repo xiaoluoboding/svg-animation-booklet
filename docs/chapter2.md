@@ -26,7 +26,7 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 </svg>
 ```
 
-![chapter2-1](public/chapter2-1.png)
+![chapter2-1](./public/chapter2-1.png)
 
 ## 坐标系
 
@@ -36,7 +36,7 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 
 导出为 SVG 代码时，我们可以看到 `viewBox` 属性代表了整张画布承载图像内容视口
 
-![chapter2-2](public/chapter2-2.png)
+![chapter2-2](./public/chapter2-2.png)
 
 ```xml
 <svg width="960px" height="160px" viewBox="0 0 960 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -52,7 +52,7 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 
 给图层命名后，多个图层（分组）之间容易分辨，上面例子我们给图层命名为 `shape page` ，代码中 `g` 标签的 `id` 属性就是图层的名字，Sketch 自动加上了 **"-"**.
 
-![chapter2-3](public/chapter2-3.png)
+![chapter2-3](./public/chapter2-3.png)
 
 ## 命名图形
 
@@ -62,7 +62,7 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 
 同图层，代码中图形的 `id` 属性即为我们给图形命名的名称，上例我们给图形命名分别是：`line`、`star`、`decagon`、`circle`、`rect` ，这样区分开每个图形代码。
 
-![chapter2-4](public/chapter2-4.png)
+![chapter2-4](./public/chapter2-4.png)
 
 ## 拷贝 SVG 代码
 
@@ -70,7 +70,7 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 
 比如导出图形 star，选中 star，右键拷贝 SVG 代码：
 
-![chapter2-5](public/chapter2-5.gif)
+![chapter2-5](./public/chapter2-5.gif)
 
 代码如下，这时图层 `shape page` 只包含了一个图形：
 
@@ -90,11 +90,11 @@ Sketch 是 macOS 上的 UI 设计利器，支持完善的 SVG 图形编辑功能
 
 `预设 → SVG`
 
-![chapter2-6](public/chapter2-6.png)
+![chapter2-6](./public/chapter2-6.png)
 
 `文件 → 导出`
 
-![chapter2-7](public/chapter2-7.png)
+![chapter2-7](./public/chapter2-7.png)
 
 Sketch 会导出一个 SVG 文件，用编辑器打开 SVG 文件就得到我们想要的代码。
 

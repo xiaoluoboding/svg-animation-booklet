@@ -4,7 +4,7 @@
 
 SVG 中 `fill` 属性支持以 `pattern` 方式填充一个图案，Pattern 也是一个强大的元素声明，如果图案设计的比较完美，那么会轻易得到一个无缝衔接的图案。像这样：
 
-![chapter9-1](public/chapter9-1.png)
+![chapter9-1](./public/chapter9-1.png)
 
 ## 原理
 
@@ -37,7 +37,7 @@ SVG 中 `fill` 属性支持以 `pattern` 方式填充一个图案，Pattern 也�
 
 上面代码会得到如下图形，蓝色方块就是我们声明的 `pattern` （图案），图案区域大小为 60 * 60 （单位 px），下图以紫色边框模拟一个图案的大小范围，图案就会以这样重复填满整个 360 * 240 的图形区域，形成一个大的图案。
 
-![chapter9-2](public/chapter9-2.png)
+![chapter9-2](./public/chapter9-2.png)
 
 <EmbedCodepen title="SVG Pattern 1" pen="qBbbaJM" :height="360" />
 
@@ -132,7 +132,7 @@ body {
 
 假设我们让一个黑白格的类似棋盘的背景图案动起来
 
-![chapter9-3](public/chapter9-3.png)
+![chapter9-3](./public/chapter9-3.png)
 
 这个动画很简单，结合背景色的变化，让矩形元素 scale 到很小，再弹回来。小心看久了被催眠，眼晕。😂
 

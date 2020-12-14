@@ -7,7 +7,7 @@ tags:
   - 资源
 ---
 
-![SVG Animation](./public/SVG%20Animation.gif)
+![SVG Animation](./public/SVG_Animation.gif)
 
 ## 小册介绍
 

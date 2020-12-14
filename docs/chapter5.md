@@ -2,7 +2,7 @@
 
 ## 演示
 
-![chapter5-1](public/chapter5-1.gif)
+![chapter5-1](./public/chapter5-1.gif)
 
 查看在线版本
 
@@ -44,13 +44,13 @@ SVG 中的 stroke 属性用来控制绘制描边的方式，我们也可以使�
 
 下面我们使用 `GreenSock` 实现描边效果，GreenSock 提供了 [DrawSVGPlugin](https://greensock.com/docs/v3/Plugins/DrawSVGPlugin) 用于控制各种图形的描边效果，原理主要是通过控制上面学过的 `stroke-dasharray` 、`stroke-dashoffset` 两个CSS属性来实现动画效果。
 
-![chapter5-2](public/chapter5-2.gif)
+![chapter5-2](./public/chapter5-2.gif)
 
 ### 获取 SVG 代码
 
 这里就使用 [vivus](http://maxwellito.github.io/vivus/) 中的 **Hi There 动画** 作为 Demo，打开 vivus 官网，打开开发者工具，这里使用的是 Chrome，选中 **Hi There** dom 元素，可以看到 Hi There 的 SVG 代码。我们选中元素右键复制出来。
 
-![chapter5-3](public/chapter5-3.png)
+![chapter5-3](./public/chapter5-3.png)
 
 得到如下代码：
 

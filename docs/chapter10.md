@@ -59,7 +59,7 @@ export default {
 
 使用 `npm` 安装的 `gsap` 类库中，部分高级功能是需要加入 GreenSock Club （付费）才能使用的。比如之前介绍过的，描边动画会用到的 `DrawSVG` 、变形动画会用到 `MorphSVG` 等，这些只有加入 club ，成为会员才有使用权。不过 GreenSock 仍然提供了免费的试用版本。
 
-![chapter10-1](public/chapter10-1.png)
+![chapter10-1](./public/chapter10-1.png)
 
 ## 如何在项目中使用付费功能？
 
@@ -73,7 +73,7 @@ export default {
 
 在 GreenSock 提供的 [CodePen Demos](https://codepen.io/GreenSock/pen/aYYOdN) 中，我们可以免费体验 GreenSock Club 中的插件功能。查看 CodePen 使用的 JS 资源，会发现 `DrawSVGPlugin` 的身影，这个资源不是一个公开的放在 `cloudflare` CDN 服务地址上的资源，像是上传到 CodePen 上的资源。我们可以打开这个 JS 链接，Copy 代码放在本地。
 
-![chapter10-2](public/chapter10-2.png)
+![chapter10-2](./public/chapter10-2.png)
 
 ### 引入 DrawSVGPlugin
 

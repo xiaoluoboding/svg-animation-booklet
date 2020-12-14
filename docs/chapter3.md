@@ -18,17 +18,17 @@ SVG 的优化常用手段是使用工具 [svgo](https://github.com/svg/svgo) ，
 
 比如下面是设计师童鞋使用 Sketch 输出的一个 Icon。代码如下：
 
-![chapter3-1](public/chapter3-1.png)
+![chapter3-1](./public/chapter3-1.png)
 
 ### 优化后
 
 下面使用 `SVGOMG` 工具进行优化，可以看到优化后的文件仅仅占有源文件的 **37.74%** 体积大小
 
-![chapter3-2](public/chapter3-2.png)
+![chapter3-2](./public/chapter3-2.png)
 
 再看下优化后的 SVG 代码文件
 
-![chapter3-3](public/chapter3-3.png)
+![chapter3-3](./public/chapter3-3.png)
 
 一些无用的标签以及属性已经去掉了，保持了 SVG 文件的简洁性，svgo 提供了一些列可配置的选项，方便控制哪些属性/标签会被移除。
 
@@ -58,7 +58,7 @@ SVG 的优化常用手段是使用工具 [svgo](https://github.com/svg/svgo) ，
 
 SVGO Compressor 只适用于`导出 SVG 文件` ，`拷贝 SVG 代码`是不能被压缩的，使用插件导出后，会有一行类似的提示：`1 SVG files compressed by 29.31%, from 1234 bytes to 873 bytes.`
 
-![chapter3-4](public/chapter3-4.png)
+![chapter3-4](./public/chapter3-4.png)
 
 再来看下我们优化后的代码
 

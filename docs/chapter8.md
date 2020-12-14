@@ -4,7 +4,7 @@
 
 人类的视觉比较容易被变化所吸引，尤其是颜色的变化。像上世纪 80 年代的霓虹灯广告牌，我很难不被它所吸引。
 
-![chapter8-1](public/chapter8-1.gif)
+![chapter8-1](./public/chapter8-1.gif)
 
 ## 原理
 
@@ -28,7 +28,7 @@ CSS 动画也可以实现各种类型的闪烁效果，比如让整个元素进�
 
 `SVG SMIL Animation` 同样也能实现对图形的闪烁效果，通过声明 `attributeName` 为 `fill` ，指定想要变化的颜色。设定动画时长，就会让 SVG 图形闪烁起来。核心代码：
 
-```jsx
+```html
 <polygon fill="#4fd2dd" points="6,66 6,18 12,12 18,12 24,6 27,6 30,9 36,9 39,6 84,6 81,9 75,9 73.2,7 40.8,7 37.8,10.2 24,10.2 12,21 12,24 9,27 9,51 7.8,54 7.8,63">
   <animate
     attributeName="fill"
@@ -42,7 +42,7 @@ CSS 动画也可以实现各种类型的闪烁效果，比如让整个元素进�
 
 上述代码指定了 polygon 折线会按以下颜色顺序进行颜色的无限循环变化，产生闪烁效果
 
-![chapter8-2](public/chapter8-2.png)
+![chapter8-2](./public/chapter8-2.png)
 
 <EmbedCodepen title="Blink Border" pen="XWmNYyr" :height="200" />
 
@@ -54,7 +54,7 @@ CSS 动画也可以实现各种类型的闪烁效果，比如让整个元素进�
 
 我们先给折线定义好 `id` 属性
 
-```jsx
+```html
 <div class="gs-border-blink">
   <svg width="300px" height="300px" class="left-top">
     <polygon id="line1" fill="#4fd2dd" points="6,66 6,18 12,12 18,12 24,6 27,6 30,9 36,9 39,6 84,6 81,9 75,9 73.2,7 40.8,7 37.8,10.2 24,10.2 12,21 12,24 9,27 9,51 7.8,54 7.8,63"> </polygon>
@@ -66,7 +66,7 @@ CSS 动画也可以实现各种类型的闪烁效果，比如让整个元素进�
 
 开始动画咯
 
-```jsx
+```js
 // line 1, #4fd2dd -> #235fa7 -> #4fd2dd
 gsap
   .to('#line1', {
@@ -130,13 +130,13 @@ gsap
 
 MDN 上的 SVG defs 解释是这样的：
 
-> The <defs> element is used to store graphical objects that will be used at a later time. Objects created inside a <defs> element are not rendered directly. To display them you have to reference them (with a <use> element for example).
+> The `<defs>` element is used to store graphical objects that will be used at a later time. Objects created inside a `<defs>` element are not rendered directly. To display them you have to reference them (with a `<use>` element for example).
 
 复用 SVG 图形：
 
 1、首先给 SVG 图形分组为 `blink-border` ，并且包裹在 `defs` 标签下
 
-```jsx
+```html
 <div class="gs-border-blink">
   <svg viewBox="0 0 320 180">
     <defs>
@@ -150,7 +150,7 @@ MDN 上的 SVG defs 解释是这样的：
 
 2、使用 `use` 标签引用声明好的图形，定义好 class
 
-```jsx
+```html
 <svg class="left-top">
   <use xlink:href="#blink-border" />
 </svg>
