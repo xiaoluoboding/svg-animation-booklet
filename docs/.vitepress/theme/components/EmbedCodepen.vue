@@ -10,7 +10,7 @@
     :src="src"
     :title="title"
   >
-    See the Pen <a :href='href'>SVG shapes</a> by xiaoluoboding
+    See the Pen <a :href='href'>{{title}}</a> by xiaoluoboding
     (<a href='https://codepen.io/xiaoluoboding'>@xiaoluoboding</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 </template>

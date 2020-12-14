@@ -4,8 +4,20 @@
 
 先来看一个 GSAP （GreenSock Animation Platform）介绍，以下动画使用 GSAP 编写：
 
-[https://codepen.io/GreenSock/pen/yhEmn](https://codepen.io/GreenSock/pen/yhEmn)
-
+<iframe
+  height="320"
+  style="width: 100%;"
+  scrolling="no"
+  frameborder="no"
+  loading="lazy"
+  allowtransparency="true"
+  allowfullscreen="true"
+  src="https://codepen.io/GreenSock/embed/yhEmn?height=320&theme-id=light&default-tab=result"
+  title="GreenSock Home Page Animation - GSAP 3"
+>
+  See the Pen <a href='https://codepen.io/GreenSock/pen/yhEmn'>GreenSock Home Page Animation - GSAP 3</a> by GreenSock
+  (<a href='https://codepen.io/GreenSock'>@GreenSock</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 确实如今有很多种方法让 Web 页面生动起来，我在《SVG 基本介绍》章节也对比过一些优秀的 SVG 相关类库，为什么我选择使用 GSAP 编写 SVG 动画，我们看一张 GSAP 功能全景图
 
