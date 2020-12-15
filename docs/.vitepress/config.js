@@ -13,7 +13,7 @@ module.exports = {
         text: '前端技术栈月刊', link: 'https://github.com/xiaoluoboding/monthly'
       },
       {
-        text: 'GitHub', link: 'https://github.com/xiaoluoboding'
+        text: 'GitHub', link: 'https://github.com/xiaoluoboding/svg-animation-booklet'
       }
     ],
     sidebar: [

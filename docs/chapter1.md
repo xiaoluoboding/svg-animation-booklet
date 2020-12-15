@@ -83,7 +83,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 实际上，当 SVG 元素不声明 viewBox 属性时，SVG 的可视范围就是 `viewport` 大小。
 
-```js
+```html
 <svg width="960px" height="160px">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -98,7 +98,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 当初始化 viewBox 的坐标系为 `0 0` 并且宽高声明等于 viewport 时，等同于没有设置 viewBox。显示效果是一样的。
 
-```js
+```html
 <svg width="960px" height="160px" viewBox="0 0 960 160">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -113,7 +113,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 假设 viewBox 设定为 viewport 的一半时
 
-```js
+```html
 <svg width="960px" height="160px" viewBox="0 0 480 80">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -128,7 +128,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 假设 viewBox 设定为 viewport 的2倍时
 
-```js
+```html
 <svg width="960px" height="160px" viewBox="0 0 1920 160">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
