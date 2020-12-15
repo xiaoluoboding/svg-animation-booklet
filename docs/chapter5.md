@@ -135,7 +135,7 @@ GreenSock 提供了 `timeline` 用于创建连续的错开补间动画，很好�
 
 借助 [DrawSVGPlugin](https://greensock.com/docs/v3/Plugins/DrawSVGPlugin)  实现了将 SVG path 从 0% 绘制到 100% 的动画效果。
 
-```jsx
+```js
 // 创建时间轴
 let tl = gsap.timeline({ repeat: -1 })
 

@@ -52,7 +52,7 @@ GSAP 到底有什么用呢，其实 GSAP 的核心功能是提供了操纵元素
 
 ### 简单位移
 
-```jsx
+```js
 // 描述了使目标 circle 在两秒内向 x 轴位移 320px
 gsap.to('#circle', {
   x: 320,
@@ -62,9 +62,9 @@ gsap.to('#circle', {
 
 <EmbedCodepen title="GSAP Circle Animation 1" pen="LYpKqbm" />
 
-如果你也熟悉使用 CSS 开发动画，那么下面列表会帮助你理解 `[gsap.to](http://gsap.to)` 中属性的作用
+如果你也熟悉使用 CSS 开发动画，那么下面列表会帮助你理解 `gsap.to` 中属性的作用
 
-```jsx
+```js
 x: 100 // transform: translateX(100px)
 y: 100 // transform: translateY(100px)
 z: 100 // transform: translateZ(100px)
@@ -87,7 +87,7 @@ transformOrigin: '50% 50%' // transform-origin: 50% 50%
 
 ### 缓动动画
 
-GSAP 提供了内置的缓动函数，默认 `ease` 属性值为: `'power1.out'` ，比如我们让 circle 像球一样弹起运动。只需设定属性 `ease: 'bounce'` 
+GSAP 提供了内置的缓动函数，默认 `ease` 属性值为: `'power1.out'` ，比如我们让 circle 像球一样弹起运动。只需设定属性 `ease: 'bounce'`
 
 <EmbedCodepen title="GSAP Circle Animation 2" pen="YzyoBgb" />
 

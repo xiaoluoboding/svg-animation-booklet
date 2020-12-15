@@ -77,7 +77,7 @@ export default {
 
 ### 引入 DrawSVGPlugin
 
-```jsx
+```js
 import { gsap } from 'gsap'
 import DrawSVGPlugin from '@/plugins/DrawSVGPlugin'
 

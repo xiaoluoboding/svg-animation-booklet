@@ -206,7 +206,11 @@ MDN 上的 SVG defs 解释是这样的：
 
 总结一下：编写闪烁动画并不难，我们有多个方法可以使用。但是每种方法核心使用到的属性其实概念都差不多，看一下三种方法的对比：
 
-[闪烁动画属性对比](https://www.notion.so/f79c51c988cd4195a3074407c9052f17)
+| #  | duration | repeat | delay | direction |
+| :---: |:----------| :---------- | :---------- | :---------- |
+| CSS Property  | animation-duration | animation-iteration-count | animation-delay | animation-direction |
+| SMIL  | dur | repeatCount | begin | from, to |
+| GSAP  | duration | repeat | delay | yoyo |
 
 ## 参考
 

@@ -50,7 +50,15 @@ SVG 特性：
 
 <EmbedCodepen title="SVG shapes" pen="wvKNQxb" :height="256" />
 
-[SVG 基本图形](https://www.notion.so/65698aef277748c5b027ee834fec8edb)
+[SVG 基本图形](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Basic_Shapes) 包括：
+
+* rect - 矩形
+* circle - 圆形
+* ellipse - 椭圆
+* line - 线条
+* polyline - 折线
+* polygon - 多边形
+* path - 路径
 
 ## SVG 坐标系统
 
@@ -75,7 +83,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 实际上，当 SVG 元素不声明 viewBox 属性时，SVG 的可视范围就是 `viewport` 大小。
 
-```jsx
+```js
 <svg width="960px" height="160px">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -86,12 +94,11 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 ![chapter1-3](./public/chapter1-3.png)
 
-
 ### viewport 等于 viewbox 时
 
 当初始化 viewBox 的坐标系为 `0 0` 并且宽高声明等于 viewport 时，等同于没有设置 viewBox。显示效果是一样的。
 
-```jsx
+```js
 <svg width="960px" height="160px" viewBox="0 0 960 160">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -106,7 +113,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 假设 viewBox 设定为 viewport 的一半时
 
-```jsx
+```js
 <svg width="960px" height="160px" viewBox="0 0 480 80">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -121,7 +128,7 @@ SVG 元素的 `viewBox` 是个强大的属性，它定义了 SVG 真正意义上
 
 假设 viewBox 设定为 viewport 的2倍时
 
-```jsx
+```js
 <svg width="960px" height="160px" viewBox="0 0 1920 160">
   <title>shape page</title>
   <g id="shape-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

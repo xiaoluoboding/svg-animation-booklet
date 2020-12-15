@@ -27,7 +27,7 @@
 
 右键拷贝出 SVG path 代码
 
-```jsx
+```js
 <path d="M185,1.12977573 L128.163889,116.292316 L1.07448057,134.759488 L93.0372403,224.401023 L71.3277776,350.976903 L185,291.215879 L298.672222,350.976903 L276.96276,224.401023 L368.925519,134.759488 L241.836111,116.292316 L185,1.12977573 Z" id="star" fill="#4af"></path>
 ```
 
@@ -37,7 +37,7 @@
 
 右键拷贝出 SVG  path 代码
 
-```jsx
+```js
 <path d="M160,0 L258.885438,32 L320,110.557281 L320,210.424346 L258.885438,289.442719 C217.122754,309.81424 184.160941,320 160,320 C135.839059,320 102.877246,309.81424 61.1145618,289.442719 L0,210.424346 L0,110.557281 L61.1145618,32 L160,0 Z" id="decagon" fill="transparent"></path>
 ```
 
@@ -54,7 +54,7 @@
 </svg>
 ```
 
-```jsx
+```js
 // gsap.to()... infinity and beyond!
 // For more check out greensock.com
 let tl = gsap.timeline({
@@ -82,7 +82,7 @@ GreenSock 同时支持多个形状的变换，假设我们的变换规则变为�
 
 ![chapter7-4](./public/chapter7-4.png)
 
-```jsx
+```js
 // 将 circle 图形转换为 path
 MorphSVGPlugin.convertToPath("rect");
 ```
@@ -102,7 +102,7 @@ MorphSVGPlugin.convertToPath("rect");
 </svg>
 ```
 
-```jsx
+```js
 // gsap.to()... infinity and beyond!
 // For more check out greensock.com
 MorphSVGPlugin.convertToPath("rect");
