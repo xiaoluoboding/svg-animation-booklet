@@ -1,7 +1,7 @@
 module.exports = {
   title: 'SVG 动画开发实战',
   description: '专注于有关 SVG 的动画开发，探究 SVG 开发常见动画的原理，站在巨人的肩膀上，借助 GSAP 进行丰富的动画开发。',
-  base: '/svg-animation-booklet/',
+  // base: '/svg-animation-booklet/',
   themeConfig: {
     nav: [
       {

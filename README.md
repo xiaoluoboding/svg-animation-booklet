@@ -1,4 +1,4 @@
-# SVG 动画开发实战》小册
+# 《SVG 动画开发实战》小册
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/xiaoluoboding/svg-animation-booklet?style=flat-square)
 
