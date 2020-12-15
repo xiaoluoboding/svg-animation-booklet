@@ -50,4 +50,4 @@ tags:
 
 关注我的技术公号，同样也可以找到此小册系列，目前在更新中。。。
 
-![xlbd](public/xlbd.png)
+![xlbd](./public/xlbd.png)
