@@ -7,6 +7,9 @@ module.exports = {
         text: '小册', link: 'overview'
       },
       {
+        text: 'Notion 版本', link: 'https://bit.ly/3hLiu4D'
+      },
+      {
         text: '前端技术栈月刊', link: 'https://github.com/xiaoluoboding/monthly'
       },
       {
@@ -14,7 +17,7 @@ module.exports = {
       }
     ],
     sidebar: [
-      { text: '小册介绍', link: '/overview' },
+      { text: '📖 小册介绍', link: '/overview' },
       { text: '📋 SVG 基本介绍', link: '/chapter1' },
       { text: '📃 SVG 文件输出', link: '/chapter2' },
       { text: '🚀 SVG 文件优化', link: '/chapter3' },

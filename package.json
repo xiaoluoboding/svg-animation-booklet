@@ -2,12 +2,29 @@
   "name": "svg-animation-booklet",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs --port 8686"
+    "docs:serve": "vitepress serve docs --port 8686",
+    "deploy": "sh deploy.sh"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoluoboding/svg-animation-booklet.git"
+  },
+  "keywords": [
+    "svg",
+    "animation",
+    "booklet",
+    "tutorial",
+    "gsap"
+  ],
+  "author": "xiaoluoboding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoluoboding/svg-animation-booklet/issues"
+  },
+  "homepage": "https://github.com/xiaoluoboding/svg-animation-booklet#readme",
   "devDependencies": {
     "vitepress": "^0.9.2",
     "vue": "3.0.4"

@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/dist/client/theme-default'
 
 import EmbedCodepen from './components/EmbedCodepen.vue'
+import './styles/index.css'
 
 export default {
   ...DefaultTheme,

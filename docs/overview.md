@@ -38,6 +38,16 @@ tags:
 | 9    | [🖼️ SVG 图案动画（Pattern）](chapter9.md) | `截稿` |
 | 10   | [🤟 Vue + GSAP 实战](chapter10.md) | `截稿` |
 
-## 资源
+## 小册资源
 
 > 🔮 小册所有线上 Demo 整合在 CodePen Collection 中[《SVG Animation Best Practices》](https://codepen.io/collection/DgoLRq)
+
+## Notion 版本
+
+此小册是在 [Notion](https://www.notion.so/) 上完成撰写的，所以我保留了 Notion 的分享版本，你也可以[点击这里](https://bit.ly/3hLiu4D)查看。
+
+## 微信公众号版本
+
+关注我的技术公号，同样也可以找到此小册系列，目前在更新中。。。
+
+![xlbd](public/xlbd.png)
