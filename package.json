@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/xiaoluoboding/svg-animation-booklet#readme",
   "devDependencies": {
-    "vitepress": "^0.9.2",
+    "vitepress": "^0.12.2",
     "vue": "3.0.4"
   }
 }
